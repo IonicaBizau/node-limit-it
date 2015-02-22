@@ -42,11 +42,12 @@ Creates a new instance of `LimitIt`.
 #### Return
 - **LimitIt** The `LimitIt` instance.
 
-### `add(func, callback)`
+### `add(func, args, callback)`
 Adds a new function in the buffer.
 
 #### Params
 - **Function** `func`: The function to be run.
+- **Array** `args`: The arguments passed to the function.
 - **Function** `callback`: The callback function.
 
 #### Return
