@@ -1,0 +1,30 @@
+{
+  "name": "limit-it",
+  "version": "1.0.0",
+  "description": "Run in parallel how many functions you want, but not more than <x> functions at the time.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ul": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-limit-it.git"
+  },
+  "keywords": [
+    "limit",
+    "functions"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-limit-it/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-limit-it"
+}
