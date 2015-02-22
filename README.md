@@ -1,3 +1,5 @@
+<img src="http://i.imgur.com/AhRjvi5.png" width="300">
+
 # Limit-it
 Run in parallel how many functions you want, but not more than *<x>* functions at the time.
 
@@ -12,7 +14,7 @@ $ npm install limit-it
 
 ```js
 // Dependencies
-var LimitIt = require("../lib");
+var LimitIt = require("limit-it");
 
 // Create the limiter
 var l = new LimitIt(10)
