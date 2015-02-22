@@ -1,8 +1,8 @@
 // Dependencies
-var Limiter = require("../lib");
+var LimitIt = require("../lib");
 
 // Create the limiter
-var l = new Limiter(10)
+var l = new LimitIt(10)
   , c = 1
   ;
 
