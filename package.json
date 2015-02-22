@@ -6,9 +6,6 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "ul": "^1.1.0"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "node test"
