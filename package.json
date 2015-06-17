@@ -22,5 +22,12 @@
   "homepage": "https://github.com/IonicaBizau/node-limit-it",
   "blah": {
     "h_img": "http://i.imgur.com/4UoX6DL.png"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "typpy": "^2.0.0"
+  },
+  "devDependencies": {}
 }
