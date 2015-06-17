@@ -1,6 +1,6 @@
 {
   "name": "limit-it",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Run in parallel how many functions you want, but not more than <x> functions at the time.",
   "main": "lib/index.js",
   "scripts": {
