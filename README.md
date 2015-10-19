@@ -13,7 +13,7 @@
 <!-- * * * Thanks! * * *                                                    -->
 <!---------------------------------------------------------------------------->
 
-![limit-it](http://i.imgur.com/4UoX6DL.png)
+[![limit-it](http://i.imgur.com/4UoX6DL.png)](#)
 
 # limit-it [![Donate now][donate-now]][paypal-donations]
 
@@ -47,7 +47,6 @@ new Array(30).join("1").split("").forEach(function (_, i) {
         console.log("> %s: Function %s done. Random number is: %s", ++c, i, rand);
     });
 });
-
 ```
 
 ## Documentation
@@ -96,6 +95,11 @@ Runs the function from the buffer element.
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## Who uses this
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`exec-limiter`](https://github.com/IonicaBizau/node-exec-limiter)
+
 ## License
 [KINDLY][license] © [Ionică Bizău][website]–The [LICENSE](/LICENSE) file contains
 a copy of the license.
@@ -105,4 +109,4 @@ a copy of the license.
 [website]: http://ionicabizau.net
 [docs]: /DOCUMENTATION.md
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MG98D7NPFZ3MG
-[donate-now]: http://i.imgur.com/jioicaN.png
+[donate-now]: http://i.imgur.com/6cMbHOC.png
