@@ -17,7 +17,7 @@
 
 # limit-it [![Donate now][donate-now]][paypal-donations]
 
-Run in parallel how many functions you want, but not more than <x> functions at the time.
+Run in parallel as many functions you want, but not more than <x> functions at the time.
 
 ## Installation
 
