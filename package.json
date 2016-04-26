@@ -1,6 +1,6 @@
 {
   "name": "limit-it",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Run in parallel as many functions you want, but not more than <x> functions at the time.",
   "main": "lib/index.js",
   "scripts": {
@@ -29,5 +29,16 @@
   "dependencies": {
     "typpy": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
