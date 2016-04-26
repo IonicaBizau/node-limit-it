@@ -1,16 +1,20 @@
+
 [![limit-it](http://i.imgur.com/4UoX6DL.png)](#)
 
 # limit-it [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-limit-it.svg)](https://travis-ci.org/IonicaBizau/node-limit-it/) [![Version](https://img.shields.io/npm/v/limit-it.svg)](https://www.npmjs.com/package/limit-it) [![Downloads](https://img.shields.io/npm/dt/limit-it.svg)](https://www.npmjs.com/package/limit-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Run in parallel as many functions you want, but not more than <x> functions at the time.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save limit-it
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -34,7 +38,8 @@ new Array(30).join("1").split("").forEach(function (_, i) {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `LimitIt(limit)`
 Creates a new instance of `LimitIt`.
@@ -77,15 +82,19 @@ Runs the function from the buffer element.
 #### Return
 - **LimitIt** The `LimitIt` instance.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`exec-limiter`](https://github.com/IonicaBizau/node-exec-limiter)
 
-## License
+ - [`exec-limiter`](https://github.com/IonicaBizau/node-exec-limiter)—Limit the shell execution commands to <x> calls same time.
+ - [`same-time-limit`](https://github.com/IonicaBizau/same-time-limit#readme)—Run tasks in parallel with a limit.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
