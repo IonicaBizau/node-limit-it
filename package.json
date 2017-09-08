@@ -1,6 +1,6 @@
 {
   "name": "limit-it",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "description": "Run in parallel as many functions you want, but not more than <x> functions at the time.",
   "main": "lib/index.js",
   "scripts": {
@@ -40,6 +40,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
